@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+    <script type="text/javascript" src="mapwize@2.4.7.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #mapwize {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mapwize"></div>
+    <script>
+        MapwizeUI.map({
+            apiKey: '1f04d780dc30b774c0c10f53e3c7d4ea' // This is a demo key. It is not allowed to use it for production. The key might change at any time without notice. Get your key by signin up at mapwize.io
+        })
+    </script>
+</body>
+
+</html>
